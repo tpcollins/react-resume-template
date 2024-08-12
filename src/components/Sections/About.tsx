@@ -23,10 +23,8 @@ const About: FC = memo(() => {
             {description.map(({text}, idx) => (
               <p key={idx} className="prose prose-sm text-gray-300 sm:prose-base">
                 {text}
-                {/* <br></br> */}
               </p>
             ))}
-            {/* <p className="prose prose-sm text-gray-300 sm:prose-base">{description}</p> */}
           </div>
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {aboutItems.map(({label, text, Icon}, idx) => (

@@ -96,23 +96,16 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: [
     {text: 'I am a Denver-based developer and engineer with a deep passion for government work and crafting software solutions that empower local businesses. '},
-    {text: 'My heart lies in web and app development, where I enjoy working with barebones HTML, CSS, and JavaScript, as well as React.js to build efficient and impactful applications.'},
+    // {text: 'My heart lies in web and app development, where I enjoy working with barebones HTML, CSS, and JavaScript, as well as React.js to build efficient and impactful applications.'},
     {text: 'When I’m not coding, you can find me on the slopes snowboarding and skiing, exploring the great outdoors through hiking, or indulging in a good whiskey tasting session.'},
   ],
-  
-//   `I am a Denver-based developer and engineer with a deep passion for government work and crafting software solutions that empower local businesses. 
-// \n
-//   My heart lies in web and app development, where I enjoy working with barebones HTML, CSS, and JavaScript, as well as React.js to build efficient and impactful applications.
-
-//   When I’m not coding, you can find me on the slopes snowboarding and skiing, exploring the great outdoors through hiking, or indulging in a good whiskey tasting session.`,
-
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Denver, CO', Icon: MapIcon},
+    {label: 'Age', text: '24', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Snowboarding, Alabama Football (Roll Tide!), Whiskey, and Horror Games', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Alabama', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Larimer County/Freelance Web Developer', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -267,17 +260,11 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: '2018-2023',
+    location: 'University of Alabama, Tuscaloosa, AL',
+    title: 'Bachelor of Science in Commerce & Business Administration, Management Information Systems (MIS)',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+  }
 ];
 
 export const experience: TimelineItem[] = [
