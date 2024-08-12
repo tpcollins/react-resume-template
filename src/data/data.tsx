@@ -9,10 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -44,8 +41,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Tristan Collins | Homepage',
+  description: "Homepage",
 };
 
 /**
@@ -73,13 +70,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Denver based <strong className="text-stone-100">Full Stack Software Engineer, Web Developer</strong> and <strong className="text-stone-100"> Database Administrator.</strong>
+        I am a Denver based <strong className="text-stone-100">Full Stack Software Engineer, Web Developer, Database Administrator,</strong> and avid snowboarder.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/resume/TristanCollinsResume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -97,9 +94,18 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: [
+    {text: 'I am a Denver-based developer and engineer with a deep passion for government work and crafting software solutions that empower local businesses. '},
+    {text: 'My heart lies in web and app development, where I enjoy working with barebones HTML, CSS, and JavaScript, as well as React.js to build efficient and impactful applications.'},
+    {text: 'When I’m not coding, you can find me on the slopes snowboarding and skiing, exploring the great outdoors through hiking, or indulging in a good whiskey tasting session.'},
+  ],
+  
+//   `I am a Denver-based developer and engineer with a deep passion for government work and crafting software solutions that empower local businesses. 
+// \n
+//   My heart lies in web and app development, where I enjoy working with barebones HTML, CSS, and JavaScript, as well as React.js to build efficient and impactful applications.
+
+//   When I’m not coding, you can find me on the slopes snowboarding and skiing, exploring the great outdoors through hiking, or indulging in a good whiskey tasting session.`,
+
   aboutItems: [
     {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
@@ -358,9 +364,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tpcollins'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/tristanpcollins/'}
 ];

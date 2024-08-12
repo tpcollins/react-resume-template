@@ -39,7 +39,7 @@ interface HeroActionItem {
  */
 export interface About {
   profileImageSrc?: string;
-  description: string;
+  description: Description[];
   aboutItems: AboutItem[];
 }
 
@@ -47,6 +47,10 @@ export interface AboutItem {
   label: string;
   text: string;
   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+}
+
+export interface Description {
+  text: string;
 }
 
 /**
