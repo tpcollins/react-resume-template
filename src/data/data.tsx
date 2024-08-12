@@ -258,37 +258,79 @@ export const portfolioItems: PortfolioItem[] = [
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
+const st = "Skills: ";
 export const education: TimelineItem[] = [
   {
     date: '2018-2023',
     location: 'University of Alabama, Tuscaloosa, AL',
     title: 'Bachelor of Science in Commerce & Business Administration, Management Information Systems (MIS)',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Management Information Systems (MIS) is a dynamic blend of computer science and business disciplines. <br></br> 
+      This major equips you with technical expertise in software development and data management while providing a strong foundation in key business areas like finance, accounting, management, operations, and business administration.</p>,
+    skillsTitle: st,
+    skills: "SQL • C# • React.js • JavaScript • TypeScript • Python • Stakeholder Relations • Business Administration",
   }
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: '2023 - Present',
+    location: "Larimer County Assessor's Office, Fort Collins, CO",
+    title: 'Application Support Specialist (Full Time)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        As an Application Support Specialist at Larimer County Assessor's Office, I enhance operational efficiency and data integrity by leveraging Python for process automation and complex SQL for data analysis. 
+        <br></br>
+        <br></br>
+        I utilize tools like RealWare and PowerBI to create insightful visualizations and streamline data management. My work ensures accurate data handling and supports key decision-making processes within the organization.
       </p>
     ),
+    skillsTitle: st,
+    skills: "SQL • C# • React.js • JavaScript • TypeScript • Python • Stakeholder Relations • Business Administration",
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: '2022 - Present',
+    location: 'Coremethod.fitness, Remote',
+    title: 'Web Administrator (Freelance Role)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        As a Web Administrator for Core Method Fitness, I developed and managed the company's online presence using HTML, CSS, and JavaScript to create a user-friendly, visually appealing website.
+        <br></br>
+        <br></br>
+        My key achievements include automating communication via PHP, integrating APIs for real-time updates and payment processing, and streamlining client interactions, significantly improving the digital experience for Core Method Fitness.
       </p>
     ),
+    skillsTitle: st,
+    skills: "HTML • CSS • React.js • JavaScript • PHP • RESTful API • Postman • CURL • Web Development • Web Maintanence",
+  },
+  {
+    date: '2021 - 2022',
+    location: 'GALT Pharmaceuticals, Remote',
+    title: 'Fullstack Engineer (Contract Position)',
+    content: (
+      <p>
+        At GALT Pharmaceuticals, I led a comprehensive data integration project, overseeing all aspects of back-end and front-end development. I developed a RESTful API to streamline data transfer and modernize the company's outdated system. 
+        <br></br>
+        <br></br>
+        My achievements include extensive API testing, building robust front-end interfaces with ReactJS, HTML, CSS, JavaScript, and developing back-end functionalities with Django and C#. I also enhanced database accuracy using Python and SQL, and implemented OAuth 2.0 for secure authentication.
+      </p>
+    ),
+    skillsTitle: st,
+    skills: "Database Design • SQL • React.js • JavaScript • Python • C# • Django • Pandas • RESTful API • OAuth 2.0 • QuickBooks API • Postman • CURL",
+  },
+  {
+    date: '2022 - 2022',
+    location: 'Eastman Equity Real Estate, Remote',
+    title: 'Web Developer (Freelance Role)',
+    content: (
+      <p>
+        Provided needed cosmetic upgrades to previous version of website. 
+        <br></br>
+        <br></br>
+        Also utilized graphic design skills to do work in PhotoWorks for certain parts of the website.
+      </p>
+    ),
+    skillsTitle: st,
+    skills: "HTML • SquareSpace • CSS • PhotoWorks",
   },
 ];
 

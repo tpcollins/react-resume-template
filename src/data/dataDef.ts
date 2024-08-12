@@ -95,6 +95,8 @@ export interface TimelineItem {
   location: string;
   title: string;
   content: JSX.Element;
+  skillsTitle: string,
+  skills: string;
 }
 
 /**
