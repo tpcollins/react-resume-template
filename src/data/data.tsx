@@ -332,6 +332,33 @@ export const experience: TimelineItem[] = [
     skillsTitle: st,
     skills: "HTML • SquareSpace • CSS • PhotoWorks",
   },
+  {
+    date: '2021 - 2022',
+    location: 'Self Employed, Tuscaloosa, AL',
+    title: 'Fullstack Development/SQL Tutor (Part Time)',
+    content: (
+      <p>
+        As a Fullstack Development/SQL Tutor, I provided comprehensive tutoring in MIS courses, focusing on full stack development and Object-Oriented Programming. I guided students through front-end and back-end development using C#, HTML5, CSS, and SQL.
+        <br></br>
+        <br></br>
+        I emphasized database management, delivering hands-on experience in SQL queries, database normalization, and data integrity. My tailored learning plans and technical problem-solving support ensured student success, with all achieving high academic performance.
+      </p>
+    ),
+    skillsTitle: st,
+    skills: "SSMS • SQL • C# • HTML • CSS • JavaScript • Microsoft CORS",
+  },
+  {
+    date: '2021 - 2021',
+    location: 'Brasfield & Gorrie, Birmingham, AL',
+    title: 'Information Technology Support Intern (Intership)',
+    content: (
+      <p>
+        Made certain that all measures of technology were properly working, creating a smooth workday for employees in all different sectors of the company.
+      </p>
+    ),
+    skillsTitle: st,
+    skills: "Cisco Call Manager • Active Directory • Information Technology • Print Logic • Tech Support",
+  },
 ];
 
 /**
