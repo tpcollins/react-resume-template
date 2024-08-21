@@ -21,13 +21,13 @@ const About: FC = memo(() => {
           <div className="flex flex-col gap-y-2">
             <h2 className="text-2xl font-bold text-white">About me</h2>
             {description.map(({text}, idx) => (
-              <p key={idx} className="prose prose-sm text-gray-300 sm:prose-base">
+              <p className="prose prose-sm text-gray-300 sm:prose-base" key={idx}>
                 {text}
               </p>
             ))}
           </div>
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-            {aboutItems.map(({Icon, text, label}, idx) => (
+            {aboutItems.map(({Icon, label, text}, idx) => (
               <li className="col-span-1 flex items-start gap-x-2" key={idx}>
                 {Icon && <Icon className="h-5 w-5 text-white" />}
                 <span className="text-sm font-bold text-white">{label}:</span>
