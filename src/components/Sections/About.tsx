@@ -8,6 +8,7 @@ import Section from '../Layout/Section';
 const About: FC = memo(() => {
   const {aboutItems, description, profileImageSrc} = aboutData;
   return (
+    /* eslint-disable react/jsx-sort-props */
     <Section className="bg-neutral-800" sectionId={SectionId.About}>
       <div className={classNames('grid grid-cols-1 gap-y-4', {'md:grid-cols-4': !!profileImageSrc})}>
         {!!profileImageSrc && (
@@ -38,6 +39,7 @@ const About: FC = memo(() => {
         </div>
       </div>
     </Section>
+    /* eslint-enable react/jsx-sort-props */
   );
 });
 
