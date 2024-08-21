@@ -8,7 +8,7 @@ import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const {imageSrc, name, description, actions} = heroData;
+  const {actions, description, imageSrc, name} = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
