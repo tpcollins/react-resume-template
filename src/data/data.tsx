@@ -114,19 +114,19 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'API Tools',
     skills: [
       {
-        name: 'English',
+        name: 'Curl',
+        level: 8,
+      },
+      {
+        name: 'Postman',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'SoapUI',
+        level: 7,
       },
     ],
   },
@@ -135,15 +135,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 10,
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'JavaScript',
+        level: 9,
       },
     ],
   },
@@ -151,33 +151,33 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
+        name: 'C#',
+        level: 9,
+      },
+      {
+        name: 'Python',
+        level: 7,
+      },
+      {
         name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
+        level: 10,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Database Management',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'SQL',
+        level: 10,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Oracle',
+        level: 7,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Microsoft Access',
+        level: 5,
       },
     ],
   },
@@ -391,27 +391,22 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: `Whether you have a question, want to discuss a project, or just want to connect, here's how you can get in touch.`,
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'tpcollins00@gmail.com',
+      href: 'mailto:tpcollins00@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: 'Denver, CO',
+      href: 'https://www.google.com/maps/place/Denver,+CO/@39.7642224,-105.0199145,11z/data=!3m1!4b1!4m6!3m5!1s0x876b80aa231f17cf:0x118ef4f8278a36d6!8m2!3d39.7392358!4d-104.990251!16zL20vMDJjbDE?entry=ttu',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'tpcollins',
+      href: 'https://github.com/tpcollins',
     },
   ],
 };
