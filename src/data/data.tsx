@@ -288,7 +288,7 @@ export const experience: TimelineItem[] = [
     skills: "SQL • C# • React.js • JavaScript • TypeScript • Python • Stakeholder Relations • Business Administration",
   },
   {
-    date: '2022 - Present',
+    date: '2023 - Present',
     location: 'Coremethod.fitness, Remote',
     title: 'Web Administrator (Freelance Role)',
     content: (
