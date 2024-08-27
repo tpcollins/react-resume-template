@@ -1,6 +1,6 @@
 import {FC, memo, useCallback, useMemo, useState} from 'react';
 import emailjs from 'emailjs-com';
-import { Circles } from 'react-loader-spinner';
+import {Circles} from 'react-loader-spinner';
 
 interface FormData {
   name: string;
@@ -24,9 +24,9 @@ const ContactForm: FC = memo(() => {
 
   const onChange = useCallback(
     <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
-      const { name, value } = event.target;
-      const fieldData: Partial<FormData> = { [name]: value };
-      setData({ ...data, ...fieldData });
+      const {name, value} = event.target;
+      const fieldData: Partial<FormData> = {[name]: value};
+      setData({...data, ...fieldData});
     },
     [data],
   );
@@ -73,8 +73,8 @@ const ContactForm: FC = memo(() => {
         <div className="flex flex-col items-center">
           <p>Email sent! Would you like to send another?</p>
           <button
-            onClick={handleResetForm}
             className="mt-4 rounded-full border-2 border-orange-600 bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-stone-800"
+            onClick={handleResetForm}
           >
             Send Another
           </button>
@@ -104,16 +104,16 @@ const ContactForm: FC = memo(() => {
           />
           <button
             aria-label="Submit contact form"
+            disabled={loading}  // Disable the button while loading
             className="w-max rounded-full border-2 border-orange-600 bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-stone-800"
             type="submit"
-            disabled={loading}  // Disable the button while loading
           >
             {loading ? (
               <Circles
-                height="24"
-                width="24"
                 color="#ffffff"
                 ariaLabel="loading"
+                height="24"
+                width="24"
               />
             ) : (
               'Send Message'
