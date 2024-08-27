@@ -51,12 +51,12 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  // Contact: 'contact',
+  Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  // Testimonials: 'testimonials',
+  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
