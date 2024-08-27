@@ -51,12 +51,12 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  Contact: 'contact',
+  // Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  // Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -81,11 +81,11 @@ export const heroData: Hero = {
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
-    },
+    // {
+    //   href: `#${SectionId.Contact}`,
+    //   text: 'Contact',
+    //   primary: false,
+    // },
   ],
 };
 
@@ -208,7 +208,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Core Method Fitness',
     description: `Managed and enhanced Core Method Fitness's online presence with a user-focused website, integrating real-time APIs and streamlining client interactions.`,
-    url: 'www.coremethod.fitness/',
+    url: 'https://www.coremethod.fitness/',
     image: porfolioImage4,
   },
   // {
@@ -232,7 +232,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: `My Resume Website (the site you're on now!)`,
     description: 'Developed a Next.js resume website with TSX, delivering a modern and dynamic user experience while showcasing my professional portfolio.',
-    url: 'www.tristancollins.org',
+    url: 'https://www.tristancollins.org',
     image: porfolioImage8,
   },
   // {
