@@ -38,14 +38,14 @@ const ContactForm: FC = memo(() => {
 
       try {
         const result = await emailjs.send(
-          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
-          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
+          process.env.EMAILJS_SERVICE_ID || '',
+          process.env.EMAILJS_TEMPLATE_ID || '',
           {
             name: data.name,
             email: data.email,
             message: data.message,
           },
-          process.env.NEXT_PUBLIC_EMAILJS_USER_ID || ''
+          process.env.EMAILJS_USER_ID || ''
         );
 
         console.log('Email sent:', result.text);
