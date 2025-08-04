@@ -1,5 +1,5 @@
 import {FC, memo} from 'react';
-// Creating comment to repush. Disconnected from Vercel
+
 import Icon, {IconProps} from './Icon';
 
 const DribbbleIcon: FC<IconProps> = memo(props => (
