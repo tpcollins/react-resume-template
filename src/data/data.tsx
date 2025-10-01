@@ -13,17 +13,11 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import portfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import portfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import portfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import portfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import portfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import portfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import portfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import portfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import portfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 
