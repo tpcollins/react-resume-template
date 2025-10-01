@@ -285,12 +285,19 @@ export const experience: TimelineItem[] = [
         location: "Larimer County Assessor's Office, Fort Collins, CO",
         title: 'Application Support Specialist (Full Time)',
         content: (
-          <p>
-            As an Application Support Specialist at Larimer County Assessor's Office, I enhance operational efficiency and data integrity by leveraging Python for process automation and complex SQL for data analysis. 
-            <br></br>
-            <br></br>
-            I utilize tools like RealWare and PowerBI to create insightful visualizations and streamline data management. My work ensures accurate data handling and supports key decision-making processes within the organization.
-          </p>
+          <div className="space-y-4 leading-relaxed">
+            <p>
+              As an Application Support Specialist at the Larimer County Assessor's Office,
+              I enhance operational efficiency and data integrity by leveraging Python for
+              process automation and complex SQL for data analysis.
+            </p>
+
+            <p>
+              I utilize tools like RealWare and PowerBI to create insightful visualizations
+              and streamline data management. My work ensures accurate data handling and
+              supports key decision-making processes within the organization.
+            </p>
+          </div>
         ),
         skillsTitle: st,
         skills: "SQL • C# • React.js • JavaScript • TypeScript • Python • Stakeholder Relations • Business Administration • API Testing",
@@ -361,12 +368,18 @@ export const experience: TimelineItem[] = [
         location: 'GALT Pharmaceuticals, Remote',
         title: 'Fullstack Engineer (Contract Position)',
         content: (
-          <p>
-            At GALT Pharmaceuticals, I led a comprehensive data integration project, overseeing all aspects of back-end and front-end development.
-            <br></br>
-            <br></br>
-            My achievements include extensive API testing, building robust front-end interfaces with ReactJS, SCSS, JavaScript, and Bootstrap, developing back-end functionalities with Django and C#, and implementing OAuth 2.0 for secure authentication.
-          </p>
+          <div className="space-y-4 leading-relaxed">
+            <p>
+              At GALT Pharmaceuticals, I led a comprehensive data integration project, overseeing all aspects of back-end and front-end development.
+            </p>
+
+            <p>
+              My achievements include extensive API testing, building robust front-end interfaces with ReactJS, SCSS, JavaScript, and 
+              Bootstrap, developing back-end functionalities with Django and C#, and implementing OAuth 2.0 for secure authentication.
+            </p>
+            
+
+          </div>
         ),
         skillsTitle: st,
         skills: "Database Design • SQL • React.js • JavaScript • Python • C# • Django • Pandas • RESTful API • OAuth 2.0 • QuickBooks API • Postman • CURL",
@@ -381,12 +394,17 @@ export const experience: TimelineItem[] = [
         location: 'Self Employed, Tuscaloosa, AL',
         title: 'Fullstack Development/SQL Tutor (Part Time)',
         content: (
-          <p>
-            As a Fullstack Development/SQL Tutor, I provided comprehensive tutoring in three Management Information Systems (MIS) classes, with a primary focus on full stack development and Object-Oriented Programming. These classes covered a diverse tech stack, including C#, HTML5, CSS, Twitter Bootstrap, SQL, and JavaScript.
-            <br></br>
-            <br></br>
-            I emphasized database management, delivering hands-on experience in SQL queries, database normalization, and data integrity. My tailored learning plans and technical problem-solving support ensured student success, with all achieving high academic performance.
-          </p>
+          <div className="space-y-4 leading-relaxed">
+            <p>
+              As a Fullstack Development/SQL Tutor, I provided comprehensive tutoring in three Management Information Systems (MIS) classes, with a 
+              primary focus on full stack development and Object-Oriented Programming. These classes covered a diverse tech stack, including C#, 
+              HTML5, CSS, Twitter Bootstrap, SQL, and JavaScript.
+            </p>
+
+            <p>
+              I emphasized database management, delivering hands-on experience in SQL queries, database normalization, and data integrity. My tailored learning plans and technical problem-solving support ensured student success, with all achieving high academic performance.
+            </p>
+          </div>
         ),
         skillsTitle: st,
         skills: "SSMS • SQL • C# • HTML • CSS • JavaScript • Microsoft CORS",
@@ -401,9 +419,12 @@ export const experience: TimelineItem[] = [
         location: 'Brasfield & Gorrie, Birmingham, AL',
         title: 'Information Technology Support Intern (Intership)',
         content: (
-          <p>
-            Made certain that all measures of technology were properly working, creating a smooth workday for employees in all different sectors of the company.
-          </p>
+          <div className="space-y-4 leading-relaxed">
+            <p>
+              Made certain that all measures of technology were properly working, creating a smooth workday for employees in all different sectors 
+              of the company.
+            </p>
+          </div>
         ),
         skillsTitle: st,
         skills: "Cisco Call Manager • Active Directory • Information Technology • Print Logic • Tech Support",  
