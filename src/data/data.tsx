@@ -1,4 +1,4 @@
-// eslint-disable-next-line simple-import-sort/imports
+/* eslint-disable simple-import-sort/imports, react/jsx-sort-props */
 
 import {
   AcademicCapIcon,
