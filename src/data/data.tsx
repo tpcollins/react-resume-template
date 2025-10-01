@@ -1,3 +1,5 @@
+// eslint-disable-next-line simple-import-sort/imports
+
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
@@ -9,21 +11,14 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import heroImage from '../images/header-background.webp';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-// import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import heroImage from '../images/header-background.webp';
+import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import portfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import portfolioImage10 from '../images/portfolio/portfolio-8.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+
 import {
   About,
   ContactSection,
@@ -209,7 +204,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Elevate Fitness',
     description: `Managed and enhanced Elevate Fitness's online presence with a user-focused website, integrating real-time APIs and streamlining client interactions.`,
     url: 'https://www.elevatettown.com/',
-    image: porfolioImage4,
+    image: portfolioImage4,
   },
   // {
   //   title: 'Project title 5',
@@ -233,7 +228,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: `My Resume Website (the site you're on now!)`,
     description: 'Developed a Next.js resume website with TSX, delivering a modern and dynamic user experience while showcasing my professional portfolio.',
     url: 'https://www.tristancollins.org',
-    image: porfolioImage8,
+    image: portfolioImage8,
   },
   // {
   //   title: 'Project title 9',
@@ -245,7 +240,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Larimer County Bulk Data Downloads Section',
     description: `Developed and integrated RESTful API endpoints for bulk data downloads at Larimer County Assessor's Office, streamlining public access to essential data.`,
     url: 'https://www.larimer.gov/assessor/publicdata',
-    image: porfolioImage10,
+    image: portfolioImage10,
   },
   // {
   //   title: 'Project title 11',
