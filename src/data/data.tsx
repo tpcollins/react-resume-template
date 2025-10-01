@@ -13,9 +13,17 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
+import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import portfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import portfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import portfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import portfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import portfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import portfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import portfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import portfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import portfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 
@@ -186,19 +194,19 @@ export const portfolioItems: PortfolioItem[] = [
   //   title: 'Project title 1',
   //   description: 'Give a short description of your project here.',
   //   url: 'https://reactresume.com',
-  //   image: porfolioImage1,
+  //   image: portfolioImage1,
   // },
   // {
   //   title: 'Project title 2',
   //   description: 'Give a short description of your project here.',
   //   url: 'https://reactresume.com',
-  //   image: porfolioImage2,
+  //   image: portfolioImage2,
   // },
   // {
   //   title: 'Project title 3',
   //   description: 'Give a short description of your project here.',
   //   url: 'https://reactresume.com',
-  //   image: porfolioImage3,
+  //   image: portfolioImage3,
   // },
   {
     title: 'Elevate Fitness',
@@ -206,23 +214,23 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://www.elevatettown.com/',
     image: portfolioImage4,
   },
-  // {
-  //   title: 'Project title 5',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage5,
-  // },
-  // {
-  //   title: 'Project title 6',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage6,
-  // },
+  {
+    title: '4 Day Colorado',
+    description: 'Built the campaign website for 4 Day Colorado, emphasizing mobile-first UX, fast load times, and simple paths to sign up, learn, and get involved.',
+    url: 'https://4daycolorado.org',
+    image: portfolioImage5,
+  },
+  {
+    title: 'Personal Github',
+    description: 'View my personal GitHub projects!',
+    url: 'https://github.com/tpcollins',
+    image: portfolioImage6,
+  },
   // {
   //   title: 'Larimer County Data Downloads Section (Coming Soon!)',
   //   description: 'Developed and integrated RESTful API endpoints for the data downloads section at Larimer County, streamlining public access to essential data. Front-end development is pending and will be available soon.',
   //   url: '',
-  //   image: porfolioImage7,
+  //   image: portfolioImage7,
   // },
   {
     title: `My Resume Website (the site you're on now!)`,
@@ -234,7 +242,7 @@ export const portfolioItems: PortfolioItem[] = [
   //   title: 'Project title 9',
   //   description: 'Give a short description of your project here.',
   //   url: 'https://reactresume.com',
-  //   image: porfolioImage9,
+  //   image: portfolioImage9,
   // },
   {
     title: 'Larimer County Bulk Data Downloads Section',
@@ -246,7 +254,7 @@ export const portfolioItems: PortfolioItem[] = [
   //   title: 'Project title 11',
   //   description: 'Give a short description of your project here.',
   //   url: 'https://reactresume.com',
-  //   image: porfolioImage11,
+  //   image: portfolioImage11,
   // },
 ];
 
