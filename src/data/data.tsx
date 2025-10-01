@@ -464,8 +464,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'tpcollins00@gmail.com',
-      href: 'mailto:tpcollins00@gmail.com',
+      text: 'tristan@tristancollins.org',
+      href: 'mailto:tristan@tristancollins.org',
     },
     {
       type: ContactType.Location,
