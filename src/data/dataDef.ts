@@ -90,13 +90,18 @@ export interface PortfolioItem {
 /**
  * Resume section
  */
-export interface TimelineItem {
+export interface Item {
   date: string;
   location: string;
-  title: string;
+  title?: string;
   content: JSX.Element;
   skillsTitle: string,
   skills: string;
+}
+
+export interface TimelineItem {
+  id: number;
+  items: Item[];
 }
 
 /**

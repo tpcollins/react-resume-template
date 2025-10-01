@@ -261,103 +261,154 @@ export const portfolioItems: PortfolioItem[] = [
 const st = "Skills: ";
 export const education: TimelineItem[] = [
   {
-    date: '2018-2023',
-    location: 'University of Alabama, Tuscaloosa, AL',
-    title: 'Bachelor of Science in Commerce & Business Administration, Management Information Systems (MIS)',
-    content: <p>Management Information Systems (MIS) is a dynamic blend of computer science and business disciplines. <br></br> 
-      This major equips you with technical expertise in software development and data management while providing a strong foundation in key business areas like finance, accounting, management, operations, and business administration.</p>,
-    skillsTitle: st,
-    skills: "SQL • C# • React.js • JavaScript • TypeScript • Python • Stakeholder Relations • Business Administration",
+    id: 1,
+    items: [
+      {
+        date: '2018-2023',
+        location: 'University of Alabama, Tuscaloosa, AL',
+        title: 'Bachelor of Science in Commerce & Business Administration, Management Information Systems (MIS)',
+        content: <p>Management Information Systems (MIS) is a dynamic blend of computer science and business disciplines. <br></br> 
+          This major equips you with technical expertise in software development and data management while providing a strong foundation in key business areas like finance, accounting, management, operations, and business administration.</p>,
+        skillsTitle: st,
+        skills: "SQL • C# • React.js • JavaScript • TypeScript • Python • Stakeholder Relations • Business Administration",
+      }
+    ]
   }
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: '2023 - Present',
-    location: "Larimer County Assessor's Office, Fort Collins, CO",
-    title: 'Application Support Specialist (Full Time)',
-    content: (
-      <p>
-        As an Application Support Specialist at Larimer County Assessor's Office, I enhance operational efficiency and data integrity by leveraging Python for process automation and complex SQL for data analysis. 
-        <br></br>
-        <br></br>
-        I utilize tools like RealWare and PowerBI to create insightful visualizations and streamline data management. My work ensures accurate data handling and supports key decision-making processes within the organization.
-      </p>
-    ),
-    skillsTitle: st,
-    skills: "SQL • C# • React.js • JavaScript • TypeScript • Python • Stakeholder Relations • Business Administration",
+    id: 1,
+    items: [
+      { 
+        date: '2023 - Present',
+        location: "Larimer County Assessor's Office, Fort Collins, CO",
+        title: 'Application Support Specialist (Full Time)',
+        content: (
+          <p>
+            As an Application Support Specialist at Larimer County Assessor's Office, I enhance operational efficiency and data integrity by leveraging Python for process automation and complex SQL for data analysis. 
+            <br></br>
+            <br></br>
+            I utilize tools like RealWare and PowerBI to create insightful visualizations and streamline data management. My work ensures accurate data handling and supports key decision-making processes within the organization.
+          </p>
+        ),
+        skillsTitle: st,
+        skills: "SQL • C# • React.js • JavaScript • TypeScript • Python • Stakeholder Relations • Business Administration • API Testing",
+      }
+    ]
   },
   {
-    date: '2023 - Present',
-    location: 'Coremethod.fitness, Remote',
-    title: 'Web Administrator (Freelance Role)',
-    content: (
-      <p>
-        As a Web Administrator for Core Method Fitness, I developed and managed the company's online presence using HTML, CSS, and JavaScript to create a user-friendly, visually appealing website.
-        <br></br>
-        <br></br>
-        My key achievements include automating communication via PHP, integrating APIs for real-time updates and payment processing, and streamlining client interactions, significantly improving the digital experience for Core Method Fitness.
-      </p>
-    ),
-    skillsTitle: st,
-    skills: "HTML • CSS • React.js • JavaScript • PHP • RESTful API • Postman • CURL • Web Development • Web Maintanence",
+    id: 2,
+    items: [
+      {
+        date: '2023 - Present',
+        location: 'Remote',
+        title: 'Collins Web Design LLC (Independent Web Development and Consulting)',
+        content: (
+          <div className="space-y-4">
+            <p>Please view my current website catalog by clicking any of the following links:</p>
+
+            <ul className="list-disc list-inside space-y-1">
+              <li>
+                <a
+                  href="https://www.4daycolorado.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline underline-offset-2 hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-500"
+                >
+                  4 Day Colorado <span className="opacity-70">(Non-Profit)</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.elevatettown.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline underline-offset-2 hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-500"
+                >
+                  Elevate Fitness <span className="opacity-70">(Personal Training Services)</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.tristancollins.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline underline-offset-2 hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-500"
+                >
+                  My Resume Website <span className="opacity-70">(the one you’re on now!)</span>
+                </a>
+              </li>
+            </ul>
+
+            <p className="leading-relaxed">
+              As an independent Web Developer / Consultant, I have been instrumental in developing and managing the
+              online presence of multiple companies in different fields. Leveraging a robust stack of HTML, CSS, React.js,
+              Next.js, JavaScript, TypeScript, and more, I create user-friendly and visually appealing websites.
+            </p>
+          </div>
+        ),
+        skillsTitle: st,
+        skills: "HTML • CSS • React.js • JavaScript • PHP • RESTful API • Postman • CURL • Web Development • Web Maintanence",
+      },
+    ]
   },
   {
-    date: '2021 - 2022',
-    location: 'GALT Pharmaceuticals, Remote',
-    title: 'Fullstack Engineer (Contract Position)',
-    content: (
-      <p>
-        At GALT Pharmaceuticals, I led a comprehensive data integration project, overseeing all aspects of back-end and front-end development. I developed a RESTful API to streamline data transfer and modernize the company's outdated system. 
-        <br></br>
-        <br></br>
-        My achievements include extensive API testing, building robust front-end interfaces with ReactJS, HTML, CSS, JavaScript, and developing back-end functionalities with Django and C#. I also enhanced database accuracy using Python and SQL, and implemented OAuth 2.0 for secure authentication.
-      </p>
-    ),
-    skillsTitle: st,
-    skills: "Database Design • SQL • React.js • JavaScript • Python • C# • Django • Pandas • RESTful API • OAuth 2.0 • QuickBooks API • Postman • CURL",
+    id: 3,
+    items: [
+      {
+        date: '2021 - 2022',
+        location: 'GALT Pharmaceuticals, Remote',
+        title: 'Fullstack Engineer (Contract Position)',
+        content: (
+          <p>
+            At GALT Pharmaceuticals, I led a comprehensive data integration project, overseeing all aspects of back-end and front-end development.
+            <br></br>
+            <br></br>
+            My achievements include extensive API testing, building robust front-end interfaces with ReactJS, SCSS, JavaScript, and Bootstrap, developing back-end functionalities with Django and C#, and implementing OAuth 2.0 for secure authentication.
+          </p>
+        ),
+        skillsTitle: st,
+        skills: "Database Design • SQL • React.js • JavaScript • Python • C# • Django • Pandas • RESTful API • OAuth 2.0 • QuickBooks API • Postman • CURL",
+      }
+    ]
   },
   {
-    date: '2022 - 2022',
-    location: 'Eastman Equity Real Estate, Remote',
-    title: 'Web Developer (Freelance Role)',
-    content: (
-      <p>
-        Provided needed cosmetic upgrades to previous version of website. 
-        <br></br>
-        <br></br>
-        Also utilized graphic design skills to do work in PhotoWorks for certain parts of the website.
-      </p>
-    ),
-    skillsTitle: st,
-    skills: "HTML • SquareSpace • CSS • PhotoWorks",
+    id: 4,
+    items:[
+      {
+        date: '2021 - 2022',
+        location: 'Self Employed, Tuscaloosa, AL',
+        title: 'Fullstack Development/SQL Tutor (Part Time)',
+        content: (
+          <p>
+            As a Fullstack Development/SQL Tutor, I provided comprehensive tutoring in three Management Information Systems (MIS) classes, with a primary focus on full stack development and Object-Oriented Programming. These classes covered a diverse tech stack, including C#, HTML5, CSS, Twitter Bootstrap, SQL, and JavaScript.
+            <br></br>
+            <br></br>
+            I emphasized database management, delivering hands-on experience in SQL queries, database normalization, and data integrity. My tailored learning plans and technical problem-solving support ensured student success, with all achieving high academic performance.
+          </p>
+        ),
+        skillsTitle: st,
+        skills: "SSMS • SQL • C# • HTML • CSS • JavaScript • Microsoft CORS",
+      }
+    ]
   },
   {
-    date: '2021 - 2022',
-    location: 'Self Employed, Tuscaloosa, AL',
-    title: 'Fullstack Development/SQL Tutor (Part Time)',
-    content: (
-      <p>
-        As a Fullstack Development/SQL Tutor, I provided comprehensive tutoring in MIS courses, focusing on full stack development and Object-Oriented Programming. I guided students through front-end and back-end development using C#, HTML5, CSS, and SQL.
-        <br></br>
-        <br></br>
-        I emphasized database management, delivering hands-on experience in SQL queries, database normalization, and data integrity. My tailored learning plans and technical problem-solving support ensured student success, with all achieving high academic performance.
-      </p>
-    ),
-    skillsTitle: st,
-    skills: "SSMS • SQL • C# • HTML • CSS • JavaScript • Microsoft CORS",
-  },
-  {
-    date: '2021 - 2021',
-    location: 'Brasfield & Gorrie, Birmingham, AL',
-    title: 'Information Technology Support Intern (Intership)',
-    content: (
-      <p>
-        Made certain that all measures of technology were properly working, creating a smooth workday for employees in all different sectors of the company.
-      </p>
-    ),
-    skillsTitle: st,
-    skills: "Cisco Call Manager • Active Directory • Information Technology • Print Logic • Tech Support",
+    id: 5,
+    items: [
+      {
+        date: '2021 - 2021',
+        location: 'Brasfield & Gorrie, Birmingham, AL',
+        title: 'Information Technology Support Intern (Intership)',
+        content: (
+          <p>
+            Made certain that all measures of technology were properly working, creating a smooth workday for employees in all different sectors of the company.
+          </p>
+        ),
+        skillsTitle: st,
+        skills: "Cisco Call Manager • Active Directory • Information Technology • Print Logic • Tech Support",  
+      }
+    ]
   },
 ];
 

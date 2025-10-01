@@ -4,21 +4,25 @@ import {education, experience, SectionId, skills} from '../../../data/data';
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import {SkillGroup} from './Skills';
-import TimelineItem from './TimelineItem';
+import TimelineCard from './TimelineCard';
 
 const Resume: FC = memo(() => {
   return (
     <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
       <div className="flex flex-col divide-y-2 divide-neutral-300">
         <ResumeSection title="Education">
-          {education.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
+          {education.map(group =>
+            group.items.map((it, idx) => (
+              <TimelineCard item={it} key={`${group.id}-${idx}`} />
+            ))
+          )}
         </ResumeSection>
         <ResumeSection title="Work">
-          {experience.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
+          {experience.map(group =>
+            group.items.map((it, idx) => (
+              <TimelineCard item={it} key={`${group.id}-${idx}`} />
+            ))
+          )}
         </ResumeSection>
         <ResumeSection title="Skills">
           <p className="pb-8">Here's a snapshot of my skills.</p>
