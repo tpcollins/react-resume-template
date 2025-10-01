@@ -15,7 +15,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import portfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import portfolioImage10 from '../images/portfolio/portfolio-8.jpg';
+import portfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 
