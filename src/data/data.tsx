@@ -101,11 +101,11 @@ export const aboutData: About = {
   ],
   aboutItems: [
     {label: 'Location', text: 'Denver, CO', Icon: MapIcon},
-    {label: 'Age', text: '24', Icon: CalendarIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
     {label: 'Nationality', text: 'American', Icon: FlagIcon},
     {label: 'Interests', text: 'Snowboarding, Alabama Football (Roll Tide!), Whiskey, and Horror Games', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Alabama', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Larimer County/Freelance Web Developer', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Larimer County/Freelance Programmer', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -206,9 +206,9 @@ export const portfolioItems: PortfolioItem[] = [
   //   image: porfolioImage3,
   // },
   {
-    title: 'Core Method Fitness',
-    description: `Managed and enhanced Core Method Fitness's online presence with a user-focused website, integrating real-time APIs and streamlining client interactions.`,
-    url: 'https://www.coremethod.fitness/',
+    title: 'Elevate Fitness',
+    description: `Managed and enhanced Elevate Fitness's online presence with a user-focused website, integrating real-time APIs and streamlining client interactions.`,
+    url: 'https://www.elevatettown.com/',
     image: porfolioImage4,
   },
   // {
@@ -242,9 +242,9 @@ export const portfolioItems: PortfolioItem[] = [
   //   image: porfolioImage9,
   // },
   {
-    title: 'Larimer County Data Downloads Section (Coming Soon!)',
-    description: 'Developed and integrated RESTful API endpoints for the data downloads section at Larimer County, streamlining public access to essential data. Front-end development is pending and will be available soon.',
-    url: '',
+    title: 'Larimer County Bulk Data Downloads Section',
+    description: `Developed and integrated RESTful API endpoints for bulk data downloads at Larimer County Assessor's Office, streamlining public access to essential data.`,
+    url: 'https://www.larimer.gov/assessor/publicdata',
     image: porfolioImage10,
   },
   // {
